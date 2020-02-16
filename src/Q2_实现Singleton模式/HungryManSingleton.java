@@ -17,24 +17,23 @@ package Q2_实现Singleton模式;
  *            2. 使用懒汉式
  *
  */
-public class Singleton_饿汉式 {
+public class HungryManSingleton {
 
-//    //在类内部定义
+//    在静态代码块中 new
 //    private static Singleton_饿汉式 instance;
 //    static {
-//        //实例化该实例
 //        instance = new Singleton_饿汉式();
 //    }
 
-    //    内部 实例化一个对象.
-    private static Singleton_饿汉式 instance = new Singleton_饿汉式();
+    //   直接 new 一个私有类对象.
+    private static HungryManSingleton instance = new HungryManSingleton();
 
     //    私有的构造函数.
-    private Singleton_饿汉式() {
+    private HungryManSingleton() {
     }
 
     //    对外提供的获取实例的静态方法
-    public static Singleton_饿汉式 getInstance() {
+    public static HungryManSingleton getInstance() {
         return instance;
     }
 
