@@ -9,9 +9,9 @@ package Q3_数组中重复的数字;
 public class 补充_Java二分查找 {
 
     public static int binarySort(int[] array, int key) {
-        int end = 0;
-        int start = array.length - 1;
-        while (end <= start) {
+        int start = 0;
+        int end = array.length - 1;
+        while (start <= end) {
             int mid = (end + start) >> 1;
             if (key < array[mid]) {
                 start = mid - 1;
