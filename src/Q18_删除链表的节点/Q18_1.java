@@ -21,6 +21,7 @@ public class Q18_1 {
                 // 只有一个节点
                 head = null;
             else {
+//                删除尾巴节点.
                 ListNode cur = head;
                 while (cur.next != tobeDelete)
                     cur = cur.next;
