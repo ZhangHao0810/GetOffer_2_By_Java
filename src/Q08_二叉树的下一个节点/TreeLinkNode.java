@@ -1,4 +1,4 @@
-package Q8_二叉树的下一个节点;
+package Q08_二叉树的下一个节点;
 
 /**
  * @author ZhangHao

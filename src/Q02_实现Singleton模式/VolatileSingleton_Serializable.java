@@ -1,4 +1,4 @@
-package Q2_实现Singleton模式;
+package Q02_实现Singleton模式;
 
 import java.io.Serializable;
 

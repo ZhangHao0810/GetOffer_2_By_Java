@@ -1,4 +1,4 @@
-package Q7_重建二叉树;
+package Q07_重建二叉树;
 
 import java.util.ArrayList;
 import java.util.List;

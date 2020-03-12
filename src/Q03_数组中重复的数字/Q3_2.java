@@ -1,4 +1,4 @@
-package Q3_数组中重复的数字;
+package Q03_数组中重复的数字;
 
 /**
  * @author ZhangHao

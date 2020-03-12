@@ -1,4 +1,4 @@
-package Q4_二维数组中的查找;
+package Q04_二维数组中的查找;
 
 /**
  * @author ZhangHao
